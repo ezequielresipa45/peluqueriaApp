@@ -70,3 +70,39 @@ button:hover {
     border: 1px solid black;
     transition: 1s;
   }
+
+
+.ocultar{
+  display: none;
+}  
+
+
+.buttonSiguiente{
+  color: black;
+}
+
+.inputsTexts{
+  background-color: rgba(0, 0, 0, 0.588);
+  padding: 20px;
+  width: fit-content;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputsTexts input{
+  margin: 10px;
+  padding: 10px;
+}
+
+.inputsTexts button{
+  letter-spacing: 2px;
+border-radius: 3px;
+color: white;
+}
+.inputsTexts button:hover{
+
+color: black;
+}
