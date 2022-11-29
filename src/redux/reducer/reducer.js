@@ -1,8 +1,8 @@
 const initialState = {
 
-clientes:[]
+clientes:[],
 
-
+access: false
 
 
 
@@ -20,6 +20,12 @@ const reducer = (state = initialState, action) => {
         ...state,
         clientes: [...state.clientes, action.payload]
       } 
+
+    case 'SET_ACCESS':
+      return{
+        ...state,
+        access: action.payload
+      }  
 
 
 

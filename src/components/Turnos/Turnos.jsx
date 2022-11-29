@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Turnos.module.css";
 import { useHistory } from "react-router-dom";
-import {  useDispatch } from 'react-redux'
+import {  useDispatch, useSelector } from 'react-redux'
 import { add_client } from '../../redux/actions/actions'
 
 
@@ -15,11 +15,10 @@ const fecha = `${anio}-${mes}-${dia}`;
 export default function Turnos({ inputs, setInputs }) {
 
 
-
-
+const state = useSelector((state) => state.clientes)
   const dispatch = useDispatch();
 
-
+console.log(state)
   let history = useHistory();
 
   const handleInput = (e) => {
@@ -55,8 +54,8 @@ export default function Turnos({ inputs, setInputs }) {
 
           <div className={styles.inputsTexts}>
 
-            <input type="text" placeholder="Ingrese su nombre" name="cliente" onChange={handleInput} value={inputs.cliente} />
-            <input type="email" placeholder="Ingrese su correo" name="correo" onChange={handleInput} value={inputs.correo} />
+            <input type="text" placeholder="Ingrese su nombre" name="cliente" onChange={handleInput} value={inputs.cliente} autoComplete='nen' />
+            <input type="email" placeholder="Ingrese su correo" name="correo" onChange={handleInput} value={inputs.correo} autoComplete='nen'/>
 
             {inputs.cliente && inputs.correo &&
 
