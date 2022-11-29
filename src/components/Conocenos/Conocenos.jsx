@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Conocenos.module.css'
+import {Link} from 'react-router-dom'
 
 
 export default function Conocenos() {
@@ -7,7 +8,7 @@ export default function Conocenos() {
     <div className={styles.containerConocenos}>
 
     <h2>BE REAL, BE YOURSELF</h2>
-    <button>CONOCENOS!</button>
+   <Link to='/conocernos'> <button>CONOCENOS!</button></Link>
 
 
 
