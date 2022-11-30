@@ -2,10 +2,18 @@
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  height: 77vh;
+  background-color: #fff;
+  background-image: url('https://turnos.ornegisbert.com.ar/bundles/mgturnos/img/client/bkg-pattern.png');
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
 }
 form{
+  
+  
     display: flex;
     flex-direction: column;
     justify-content: center;

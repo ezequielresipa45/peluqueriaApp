@@ -27,6 +27,7 @@ nav ul li {
   width: 115px;
   text-align: center;
   height: 24px;
+  padding-bottom: 5px;
   
 }
 nav a {
@@ -71,7 +72,7 @@ nav ul li:hover {
 
 .containerLogin{
   position: absolute;
-  margin-top: 18px;
+  margin-top: 27px;
   display: flex;
   flex-direction:  column;
   padding: 20px;

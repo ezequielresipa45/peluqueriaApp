@@ -66,6 +66,11 @@ function App() {
           </Route>
 
           <Route exact path="/conocernos">
+            <div className={styles.containerComponentTurnos}>
+
+          <Nav/>
+
+            </div>
             <Conocernos/>
           </Route>
 
@@ -113,6 +118,11 @@ function App() {
           </Route>
 
           <Route exact path="/conocernos">
+          <div className={styles.containerComponentTurnos}>
+
+<Nav/>
+
+  </div>
             <Conocernos/>
           </Route>
 

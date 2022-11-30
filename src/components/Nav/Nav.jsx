@@ -74,7 +74,7 @@ const handleSubmit = (e) => {
               <li>Contacto</li>
             </Link>
 
-{state && (location.pathname === "/" || location.pathname === "/turnos" || location.pathname === "/contacto") ? 
+{state && (location.pathname === "/" || location.pathname === "/turnos" || location.pathname === "/contacto" || location.pathname === "/conocernos") ? 
 <Link to="/admin"> <li>Admin</li></Link>: ''}
 
 
