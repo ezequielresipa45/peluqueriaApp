@@ -1,0 +1,12 @@
+.reloj{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.reloj p {
+    color: rgba(255, 0, 0, 0.49);
+}

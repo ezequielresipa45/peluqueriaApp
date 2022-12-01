@@ -56,9 +56,6 @@ function App() {
           </Route>
 
           <Route exact path="/admin">
-          <div className={styles.containerComponentTurnos}>
-              <Nav />
-            </div>
             <Admin />
           </Route>
 
